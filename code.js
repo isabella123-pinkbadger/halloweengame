@@ -18,3 +18,23 @@ function startGame() {
     }
 }
 
+// Function for the attic path
+function attic() {
+    // Present the player with a choice
+    let choice = prompt("You see a dusty old board game with a spooky green light flashing. Do you (1) play it or (2) throw it away?");
+    
+    // Handle the player's choice
+    if (choice === "1") {
+        alert("You get sucked into the game and try to survive!");
+    } else if (choice === "2") {
+        alert("Bad Karma for the rest of your life!");
+    } else {
+        alert("Invalid choice! The ghost gets you for not choosing!");
+    }
+
+    // End the game
+    alert("The End. Thanks for playing!");
+}
+
+
+
