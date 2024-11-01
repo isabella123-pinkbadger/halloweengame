@@ -88,7 +88,7 @@ function bedroom() {
 // Start the game. delay is to let images load maybe?
 setTimeout(() => {
   startGame();
-}, "3000");
+}, "1500");
 
 
 
