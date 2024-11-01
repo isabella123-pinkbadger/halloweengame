@@ -1,5 +1,9 @@
 // Function to start the game
 function startGame() {
+    //music?
+    let audio = new Audio('music.mp3');
+    audio.play();
+    audio.loop = true;
     // Prompt the player for their name
     let playerName = prompt("What is your name?");
     // Welcome the player
@@ -79,10 +83,7 @@ function bedroom() {
     // End the game
     alert("Thanks for playing, Happy Halloween!");
 }
-//music?
-let audio = new Audio('music.mp3');
-audio.play();
-audio.loop = true;
+
 
 // Start the game. delay is to let images load maybe?
 setTimeout(() => {
