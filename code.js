@@ -84,8 +84,10 @@ let audio = new Audio('music.mp3');
 audio.play();
 audio.loop = true;
 
-// Start the game
-startGame();
+// Start the game. delay is to let images load maybe?
+setTimeout(() => {
+  startGame();
+}, "1000");
 
 
 
