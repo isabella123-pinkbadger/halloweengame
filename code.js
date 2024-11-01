@@ -79,6 +79,10 @@ function bedroom() {
     // End the game
     alert("Thanks for playing, Happy Halloween!");
 }
+//music?
+let audio = new Audio('music.mp3');
+audio.play;
+audio.loop = true;
 
 // Start the game
 startGame();
