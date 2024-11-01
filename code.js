@@ -1,9 +1,6 @@
 // Function to start the game
 function startGame() {
-    //music?
-    let audio = new Audio('music.mp3');
-    audio.play();
-    audio.loop = true;
+
     // Prompt the player for their name
     let playerName = prompt("What is your name?");
     // Welcome the player
@@ -89,6 +86,9 @@ function bedroom() {
 setTimeout(() => {
   startGame();
 }, "1500");
-
+//music?
+let audio = new Audio('music.mp3');
+audio.play();
+audio.loop = true;
 
 
