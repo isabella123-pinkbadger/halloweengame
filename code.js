@@ -28,11 +28,11 @@ function attic() {
     
     // Handle the player's choice
     if (choice === "1") {
-        alert("You get sucked into the game and try to survive!");
+        alert("You get sucked into the game and try to survive within the game! You are trapped forever!");
     } else if (choice === "2") {
-        alert("You throw the board game at the window but it hits the wall and bounces back, impaling your cranium");
+        alert("You throw the board game at the window but it hits the wall and bounces back, impaling your cranium!");
     } else if (choice === "3") {
-        alert("The ghosts get attracted to the fire and you get slimed!");
+        alert("Some ghosts get attracted to the fire and you get slimed!");
     } else {
         alert("You do nothing and die of boredom. What a way to go!");
     }
@@ -69,9 +69,9 @@ function bedroom() {
     if (choice === "1") {
         alert("You discover a hidden treasure full of baked goods!");
     } else if (choice === "2") {
-        alert("You run into a lamp, go unconscious, then wake up in a kidnappers basement!");
+        alert("You run into a lamp, are knocked unconscious, then wake up in a kidnappers basement!");
      } else if (choice === "3") {
-        alert("You drop into a pool full of flesh-eating piranhas");
+        alert("You hide in the closet, but it's a trap! The floor disappears! You drop into a pool full of flesh-eating piranhas!");
     } else {
         alert("You do nothing and die of boredom. What a way to go!");
     }
